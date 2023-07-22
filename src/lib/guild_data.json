@@ -1,0 +1,58 @@
+{
+  "Copy aide": {
+    "guild": 66872,
+    "post": 30482.92
+  },
+  "Administrative aide": {
+    "guild": 71864,
+    "post": 44100.16
+  },
+  "Editorial aide": {
+    "guild": 71864,
+    "post": 44100.16
+  },
+  "Assistant librarian": {
+    "guild": 101868,
+    "post": 57200
+  },
+  "Researcher": {
+    "guild": 101868,
+    "post": 57200
+  },
+  "Librarian": {
+    "guild": 101868,
+    "post": 68484
+  },
+  "News aide": {
+    "guild": 71864,
+    "post": 38061.4
+  },
+  "News intern": {
+    "guild": 76856,
+    "post": 53099.8
+  },
+  "Photo technician": {
+    "guild": 71864,
+    "post": 57200
+  },
+  "Producer": {
+    "guild": 101868,
+    "post": 68484
+  },
+  "Editorial writer": {
+    "guild": 101868,
+    "post": 68484
+  },
+  "Editor (I)": {
+    "guild": 106860,
+    "post": 71908.2
+  },
+  "Editor (II)": {
+    "guild": 111904,
+    "post": 75332.4
+  },
+  "Editor (III)": {
+    "guild": 116896,
+    "post": 78756.6
+  }
+}
