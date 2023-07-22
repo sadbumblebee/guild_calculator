@@ -1,17 +1,20 @@
 <script>
     // Lib for easier selections
     import Select from 'svelte-select'
+    // Load guild data
     import data from '$lib/guild_data.json'
-    // Vars
-    console.log(Object.keys(data))
+    // Load all job categories by key value
     let items = Object.keys(data)
+    // Vars can be null by default for logic
     let jobType = null
     let salaryRaw
+    // Guild proposed tiers for salary increases
     let tier1 = 80000
     let tier2 = 99999
     let tier3 = 119999
     let tier4 = 120000
 
+    // Utility functions
     const formatCommas = (x) => {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
     }
@@ -21,7 +24,9 @@
         return `$${formatCommas(int.toFixed(2))}`
     }
 
+    // SVELTE STUFF BELOW read slowly...
     // $: means re-run if values in assignment or codeblock change
+    // you can read more about it here: https://svelte.dev/examples/reactive-declarations
     // pull minimum salary from data
     $: guildMin = jobType ? data[jobType.label].guild : null
     $: postMin = jobType ? data[jobType.label].post : null
@@ -36,9 +41,11 @@
 <Select {items} bind:value={jobType} />
 <p>How much do you currently make?</p>
 <div class="salary-input-container">
+    <!-- This bind is how we handle binding a prop/value -->
     <input bind:value={salaryRaw} placeholder="Enter your salary" />
 </div>
 
+<!-- In svelte you use logic blocks like this ... -->
 <!-- IF YOU SELECT A JOB TYPE SHOW BELOW -->
 {#if jobType}
     <p>As a {jobType.label.toLowerCase()} your minimum would be ...</p>
@@ -72,6 +79,7 @@
     {/if}
 {/if}
 
+<!-- Styles go down here -->
 <style lang=scss>
     .salary-input-container {
         height: 42px;

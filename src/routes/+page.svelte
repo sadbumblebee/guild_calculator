@@ -1,12 +1,15 @@
 <script>
+// This is how you input a component
 import Input from '$lib/components/Input.svelte'
 </script>
 
+<!-- All your HTML goes here -->
 <div class="container">
 <h1>Wage calculator</h1>
 <p>Let's see how much money you could be making if management bargained fairly.</p>
 <Input/>
 </div>
+<!-- When you're done you can put component specific styling below -->
 
 <style lang="scss">
     .container {
