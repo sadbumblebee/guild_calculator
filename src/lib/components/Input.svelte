@@ -38,13 +38,15 @@
 </script>
 
 <p>What's your job category?</p>
-<Select
-    {items}
-    bind:value={jobType}
-    class='dropdown'
-    --placeholder-color='rgb(117, 117, 117)'
-    inputStyles="font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;"
-/>
+<div class="dropdown-container">
+    <Select
+        {items}
+        bind:value={jobType}
+        class='dropdown'
+        --placeholder-color='rgb(117, 117, 117)'
+        inputStyles="font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;"
+    />
+</div>
 <p>How much do you currently make?</p>
 <div class="salary-input-container">
     <!-- This bind is how we handle binding a prop/value -->
@@ -178,5 +180,9 @@
             width: 100%;
             height: 100%;
         }
+    }
+
+    .dropdown-container {
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
     }
 </style>
