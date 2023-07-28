@@ -5,8 +5,8 @@ import Input from '$lib/components/Input.svelte'
 
 <!-- All your HTML goes here -->
 <div class="container">
-<h1 class='text'>Compare wage proposals ✨</h1>
-<p class='text'>Let's see how much money you could be making if management bargained fairly.</p>
+<h1 class='text'>Let's make a deal ✨</h1>
+<p class='text'>See how much money you could be making if the company agreed to the Guild's proposal.</p>
 <Input/>
 </div>
 <!-- When you're done you can put component specific styling below -->

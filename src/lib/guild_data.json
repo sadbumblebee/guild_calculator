@@ -1,58 +1,167 @@
 {
   "Copy aide": {
     "guild": 66872,
-    "post": 30482.92
+    "post": 30482.92,
+    "type": "News / Editorial"
   },
   "Administrative aide": {
     "guild": 71864,
-    "post": 44100.16
+    "post": 44100.16,
+    "type": "News / Editorial"
   },
   "Editorial aide": {
     "guild": 71864,
-    "post": 44100.16
+    "post": 44100.16,
+    "type": "News / Editorial"
   },
   "Assistant librarian": {
     "guild": 101868,
-    "post": 57200
+    "post": 57200,
+    "type": "News / Editorial"
   },
   "Researcher": {
     "guild": 101868,
-    "post": 57200
+    "post": 57200,
+    "type": "News / Editorial"
   },
   "Librarian": {
     "guild": 101868,
-    "post": 68484
+    "post": 68484,
+    "type": "News / Editorial"
   },
   "News aide": {
     "guild": 71864,
-    "post": 38061.4
+    "post": 38061.4,
+    "type": "News / Editorial"
   },
   "News intern": {
     "guild": 76856,
-    "post": 53099.8
+    "post": 53099.8,
+    "type": "News / Editorial"
   },
   "Photo technician": {
     "guild": 71864,
-    "post": 57200
+    "post": 57200,
+    "type": "News / Editorial"
   },
   "Producer": {
     "guild": 101868,
-    "post": 68484
+    "post": 68484,
+    "type": "News / Editorial"
   },
   "Editorial writer": {
     "guild": 101868,
-    "post": 68484
+    "post": 68484,
+    "type": "News / Editorial"
   },
   "Editor (I)": {
     "guild": 106860,
-    "post": 71908.2
+    "post": 71908.2,
+    "type": "News / Editorial"
   },
   "Editor (II)": {
     "guild": 111904,
-    "post": 75332.4
+    "post": 75332.4,
+    "type": "News / Editorial"
   },
   "Editor (III)": {
     "guild": 116896,
-    "post": 78756.6
+    "post": 78756.6,
+    "type": "News / Editorial"
+  },
+  "Staff associates": {
+    "guild": 66992,
+    "post": 35000.16,
+    "type": "Business"
+  },
+  "General staff associates": {
+    "guild": 69992,
+    "post": 35400.04,
+    "type": "Business"
+  },
+  "Circulation drivers": {
+    "guild": 74984,
+    "post": 36400,
+    "type": "Business"
+  },
+  "Centrex operators": {
+    "guild": 74984,
+    "post": 3430024,
+    "type": "Business"
+  },
+  "Secretaries (other than confidential secretaries)": {
+    "guild": 74984,
+    "post": 36400,
+    "type": "Business"
+  },
+  "Advertising services staff associate": {
+    "guild": 69992,
+    "post": 35000.16,
+    "type": "Business"
+  },
+  "Senior staff associate": {
+    "guild": 74984,
+    "post": 37199.76,
+    "type": "Business"
+  },
+  "Administrative staff associate": {
+    "guild": 79976,
+    "post": 41299.96,
+    "type": "Business"
+  },
+  "Class A circulation drivers": {
+    "guild": 85020,
+    "post": 47499.92,
+    "type": "Business"
+  },
+  "Ops contract manager, product specialist, product": {
+    "guild": 85020,
+    "post": 55999.84,
+    "type": "Business"
+  },
+  "Classified telephone sales": {
+    "guild": 85020,
+    "post": 43699.76,
+    "type": "Business"
+  },
+  "Classified inside/outside sales": {
+    "guild": 90012,
+    "post": 48700.08,
+    "type": "Business"
+  },
+  "Advertising Sales/Outside, Artists, Copy, Layout, Adv. Make-up, Education, Sales Representatives; Digital Sales Representatives; Sales Planners": {
+    "guild": 104988,
+    "post": 61000.16,
+    "type": "Business"
+  },
+  "Acquisition Sales Executive/ Commissioned; Major Accounts Team Sales Associate": {
+    "guild": 95004,
+    "post": 51300.08,
+    "type": "Business"
+  },
+  "Computer Operator": {
+    "guild": 74984,
+    "post": 42599.96,
+    "type": "Business"
+  },
+  "Senior Computer Operator": {
+    "guild": 79976,
+    "post": 44700.24,
+    "type": "Business"
+  },
+  "Data Processing Programmers": {
+    "guild": 85020,
+    "post": 45299.8,
+    "type": "Business"
+  },
+  "Desktop publishing associates": {
+    "guild": 99996,
+    "post": 56100.2,
+    "type": "Business"
+  },
+  "Zone advertising representatives, prospecting sales associates": {
+    "guild": 69992,
+    "post": 34799.96,
+    "type": "Business"
   }
 }
