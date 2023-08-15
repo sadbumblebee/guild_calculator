@@ -115,7 +115,7 @@
         <span class="highlight-red">{formatSalary((salary * .04) - (salary * .02))} less</span>.
     </p>
     <p transition:fade={{ delay: 1100, duration: 550 }} style='text-align: center; border-top: 1px solid rgb(223, 58, 79); margin-top: 24px; padding-top: 24px'>
-        Inflation rate this just this last year was <strong>3.2%</strong>.
+        Inflation rate this last year was <strong>3.2%</strong>.
     </p>
     <!-- SHOW INCREASE AT TIER2 // 3.0%-->
     {:else if salary < tier2}
@@ -127,7 +127,7 @@
         <span class="highlight-red">{formatSalary((salary * .03) - (salary * .02))} less</span>.
     </p>
     <p transition:fade={{ delay: 1100, duration: 550 }} style='text-align: center; border-top: 1px solid rgb(223, 58, 79); margin-top: 24px; padding-top: 24px'>
-        Inflation rate this just this last year was <strong>3.2%</strong>.
+        Inflation rate this last year was <strong>3.2%</strong>.
     </p>
     <!-- SHOW INCREASE AT TIER3 // 2.5%-->
     {:else if salary < tier3}
@@ -140,7 +140,7 @@
         <span class="highlight-red">{formatSalary((salary * .025) - (salary * .02))} less</span>.
     </p>
     <p transition:fade={{ delay: 1100, duration: 550 }} style='text-align: center; border-top: 1px solid rgb(223, 58, 79); margin-top: 24px; padding-top: 24px'>
-        Inflation rate this just this last year was <strong>3.2%</strong>.
+        Inflation rate this last year was <strong>3.2%</strong>.
     </p>
     <!-- SHOW INCREASE AT TIER4 // 2.0%-->
     {:else if salary >= tier4}
@@ -153,7 +153,7 @@
         the same for you, but not your colleagues making less.
     </p>
     <p transition:fade={{ delay: 1100, duration: 550 }} style='text-align: center; border-top: 1px solid rgb(223, 58, 79); margin-top: 24px; padding-top: 24px'>
-        Inflation rate this just this last year was <strong>3.2%</strong>.
+        Inflation rate this last year was <strong>3.2%</strong>.
     </p>
     {/if}
 {/if}
